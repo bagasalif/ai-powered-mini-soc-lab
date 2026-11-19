@@ -18,6 +18,7 @@ Personal SOC Lab project using Wazuh for detection engineering, threat hunting, 
 - MITRE ATT&CK Mapping (T1110)
 - Telegram Alert Integration
 - Active Response Automation
+- AbuseIPDB Threat Intelligence Enrichment
 - Linux VPS Monitoring
 
 ## Detection Workflow

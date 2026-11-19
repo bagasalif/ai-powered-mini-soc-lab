@@ -8,3 +8,4 @@ This directory contains screenshots related to the Wazuh SOC Lab project.
 - Event Details
 - Telegram Alert Notification
 - Active Response
+- Telegram notification enriched with AbuseIPDB reputation information.

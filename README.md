@@ -30,11 +30,11 @@ Rule 5716
         ↓
 Rule 100100
         ↓
-Telegram Integration
+AbuseIPDB Lookup
+        ↓
+Telegram Notification
         ↓
 Active Response Script
-        ↓
-active_response.log
 ```
 
 ## Custom Rule
@@ -59,13 +59,38 @@ active_response.log
 
 The project automatically sends Telegram notifications when the SSH brute-force detection rule is triggered.
 
+
+## Threat Intelligence Enrichment
+
+AbuseIPDB is used to enrich detected SSH brute-force events with additional threat intelligence context.
+
+The Telegram notification now includes:
+
+- Country
+- ISP
+- Abuse Confidence Score
+- Total Reports
+
+### Enrichment Workflow
+
+```text
+Source IP
+     ↓
+AbuseIPDB Lookup
+     ↓
+Threat Intelligence Data
+     ↓
+Telegram Alert
+```
+
 ## Future Improvements
 
+- AI-Powered Alert Analysis
 - Automatic IP Blocking using Active Response
-- AbuseIPDB Threat Intelligence Enrichment
 - Cowrie Honeypot Integration
 - Sysmon Endpoint Monitoring
 - Windows Endpoint Monitoring
+- Expanded MITRE ATT&CK Coverage
 
 ## Screenshots
 

@@ -1,8 +1,8 @@
-# Wazuh SOC Lab
+# AI-Powered Mini SOC Lab
 
 ## Overview
 
-Personal SOC Lab project using Wazuh for detection engineering, threat hunting, and alert automation.
+Personal Mini Security Operations Center (SOC) Lab built using Wazuh, Threat Intelligence, AI-powered alert analysis, Active Response automation, and Telegram notifications.
 
 ## Environment
 
@@ -32,9 +32,11 @@ Rule 100100
         ↓
 AbuseIPDB Lookup
         ↓
+Gemini AI Analysis
+        ↓
 Telegram Notification
         ↓
-Active Response Script
+Active Response
 ```
 
 ## Custom Rule
